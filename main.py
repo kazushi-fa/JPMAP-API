@@ -1,11 +1,8 @@
 # ライブラリのインポート
 import requests
 import configparser
-import pprint
-import json
 import pandas as pd
 from matplotlib import pyplot as plt
-import matplotlib.dates as mdates
 import numpy as np
 from scipy import stats
 

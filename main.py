@@ -69,7 +69,7 @@ def job():
     response_df = response_df.set_index('date')
     response_df = response_df[(np.abs(stats.zscore(response_df)) < 3).all(axis=1)]
 
-    print(response_df)
+    # print(response_df)
 
     save_file_name = "data"
     response_df.to_csv("./downloads/" + save_file_name + ".csv")
